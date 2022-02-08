@@ -1,56 +1,65 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# LEADERBOARD
 
-> Description the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+
+
+Additional description about the project and its features.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML | CSS | JavaScript
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Text Editor | Git and Github set up
 
 ### Setup
+- Clone repository and open with text editor
 
-### Install
+### Dependencies
+- Run npm install - to load necessary files from package.json
+
+### Linter Setup
+- Apply Linter checks with the following instructions
+* Webhint: Initialize and create `package.json` with `npm init -y`.
+
+ After run `npm install --save-dev hint@6.x`
+ Create a `.hintrc` file and then run `npx hint .` to check for errors.
+
+* Stylelint: Next install stylelint for clean Styles and elimination of related errors.
+ Run:`npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
+ Afterwards create a `.stylelintrc.json` file and then run `npx stylelint "**/*.{css,scss}"` to check errors. Use `npx stylelint "**/*.{css,scss}" --fix` to fix multiple errors.
+
+* Eslint: To find and fix script errors, run `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
+After, create a `.eslintrc.json` file.
+Then run `npx eslint .` to print errors. 
+Use `npx eslint . --fix` to fix multiple errors.
+
 
 ### Usage
+- View APP 
+- Add your name
+- Add your score
+- Press Submit
+- Press (REFRESH)
+- Watch your score update below 'Recent Scores' heading
 
-### Run tests
+## Author
 
-### Deployment
+👤 **STEVE W DAMES JR**
 
+- GitHub: [@githubhandle](https://github.com/steveWDamesJr)
+- Twitter: [@twitterhandle](https://twitter.com/Steve88312331)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/steve-w-dames-jr/)
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -63,9 +72,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
 - Hat tip to anyone whose code was used
-- Inspiration
 - etc
 
 ## 📝 License
