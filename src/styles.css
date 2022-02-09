@@ -1,0 +1,93 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col-one {
+  width: 50%;
+}
+
+.refresh-btn {
+  width: 80px;
+  height: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: 2px 2px rgb(26 25 25);
+}
+
+.hero-title {
+  font-size: 4rem;
+  width: 800px;
+  padding-right: 100px;
+  margin: 3rem auto;
+}
+
+.col-two {
+  margin-right: 70px;
+}
+
+.rec-scr-title-con {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.rec-scr-title {
+  font-size: 2rem;
+  letter-spacing: 9px;
+  padding-left: 5px;
+}
+
+.add-scr-title {
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+.list-item {
+  padding-left: 5px;
+  line-height: 30px;
+}
+
+.score-list {
+  border: 2px solid;
+}
+
+li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input {
+  border-top: 1px solid;
+  line-height: 30px;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+::placeholder {
+  padding-left: 5px;
+}
+
+.submit-btn {
+  align-items: flex-end;
+  margin-left: 190px;
+  width: 70px;
+  height: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: 2px 2px rgb(26 25 25);
+}
