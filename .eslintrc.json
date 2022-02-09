@@ -11,6 +11,10 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
+    "import/no-unresolved": [
+      2, 
+      { "caseSensitive": false }    
+    ],
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
