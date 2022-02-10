@@ -1,7 +1,7 @@
 {
   "name": "leaderboard",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet). This project uses webpack to bundle js modules. User can add, remove, edit, list items. Built with JavaScript, HTML & CSS",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet). The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
