@@ -6,9 +6,9 @@
 
 
 Additional description about the project and its features.
-![screenshot](./images/demo-pic.png)
+![screenshot](./images/../src/images/Leader-desk.png)
 
-![screenshot](./images/New-Project-Todo.png)
+![screenshot](./images/../src/images/Leader-mobile.png)
 
 ## Built With
 
@@ -77,6 +77,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- Background Photo - wallpaperaccess.com
 - Hat tip to anyone whose code was used
 - etc
 
