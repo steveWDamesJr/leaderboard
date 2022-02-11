@@ -14,9 +14,6 @@ Additional description about the project and its features.
 
 - HTML | CSS | JavaScript
 
-## Live Demo
-
-[Live Demo Link](https://stevewdamesjr.github.io/leaderboard/)
 
 ## Getting Started
 
