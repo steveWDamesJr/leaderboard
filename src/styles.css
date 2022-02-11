@@ -6,6 +6,14 @@
   font-size: 16px;
 }
 
+body {
+  background-image: url("./images/background.jpg");
+}
+
+header {
+  background: #000;
+}
+
 .wrapper {
   width: 800px;
   margin-left: auto;
@@ -32,6 +40,7 @@
   width: 800px;
   padding-right: 100px;
   margin: 3rem auto;
+  color: #fff;
 }
 
 .col-two {
@@ -48,11 +57,13 @@
   font-size: 2rem;
   letter-spacing: 9px;
   padding-left: 5px;
+  color: #fff;
 }
 
 .add-scr-title {
   font-size: 2em;
   letter-spacing: 3px;
+  color: #fff;
 }
 
 .list-item {
@@ -90,4 +101,57 @@ input {
   margin-top: auto;
   margin-bottom: auto;
   box-shadow: 2px 2px rgb(26 25 25);
+}
+
+button {
+  border-radius: 10%;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+button:focus {
+  background-color: #fff;
+}
+
+@media (max-width: 896px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    min-width: 375px;
+  }
+
+  .inputs-container {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .submit-btn {
+    margin-left: 0;
+    margin-left: 83px;
+  }
+
+  header,
+  .hero-title {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+  }
+
+  .col-one,
+  .col-two {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rec-scr-title {
+    letter-spacing: 7px;
+  }
 }

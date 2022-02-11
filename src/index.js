@@ -18,7 +18,7 @@ const render = async () => {
   const scoreList = document.querySelector('.score-list');
   scoreList.innerHTML = '';
   list.forEach((obj) => {
-    scoreList.innerHTML += `<li>${obj.user}: ${obj.score}</li>`;
+    scoreList.innerHTML += `<li class="list-item">${obj.user}: ${obj.score}</li>`;
   });
 };
 render();
