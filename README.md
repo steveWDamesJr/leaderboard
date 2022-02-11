@@ -6,12 +6,17 @@
 
 
 Additional description about the project and its features.
+![screenshot](./images/demo-pic.png)
 
+![screenshot](./images/New-Project-Todo.png)
 
 ## Built With
 
 - HTML | CSS | JavaScript
 
+## Live Demo
+
+[Live Demo Link](https://stevewdamesjr.github.io/leaderboard/)
 
 ## Getting Started
 
